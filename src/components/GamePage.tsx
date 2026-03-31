@@ -81,7 +81,7 @@ const GamePage = memo(() => {
     <div className="min-h-screen bg-[#FDFDFD] overflow-x-hidden">
       {game && (
         <SEO 
-          title={`${game.title} | Pixel Paradise`}
+          title={`${game.title} | GORO GORO`}
           description={game.description}
           canonical={`https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/game/${game.slug}`}
           ogImage={game.image || `https://picsum.photos/seed/${game.slug}/1200/630`}

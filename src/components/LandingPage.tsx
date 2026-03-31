@@ -68,7 +68,7 @@ const LandingPage = memo(() => {
                 Welcome to the Future
               </div>
               <h1 className="text-7xl md:text-[10rem] font-black tracking-tighter leading-[0.75] uppercase italic mb-10 relative">
-                Pixel <br /> <span className="text-stroke">Paradise</span>
+                Goro <br /> <span className="text-stroke">Goro</span>
                 <div className="absolute -top-10 -right-10 w-20 h-20 bg-yellow-300 rounded-2xl border-4 border-black rotate-12 animate-float flex items-center justify-center text-4xl shadow-[6px_6px_0px_black]">
                   🕹️
                 </div>
@@ -354,7 +354,7 @@ const LandingPage = memo(() => {
           
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-[10px] font-bold uppercase tracking-widest">
             <div className="flex items-center gap-4">
-              <span>© 2026 PIXEL PARADISE</span>
+              <span>© 2026 GORO GORO</span>
               <span className="w-1 h-1 bg-slate-700 rounded-full" />
               <span>MADE WITH PASSION</span>
             </div>

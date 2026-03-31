@@ -54,7 +54,7 @@ const AllGamesPage = memo(() => {
   return (
     <div className="min-h-screen bg-[#FDFDFD]">
       <SEO 
-        title="All Games | Pixel Paradise" 
+        title="All Games | GORO GORO" 
         description="Browse our complete archive of pixel-perfect games and physics simulations. From Wordle to Tetris, find your next favorite game."
         canonical="https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/games"
       />
@@ -166,7 +166,7 @@ const AllGamesPage = memo(() => {
       <footer className="bg-black py-20 px-4 md:px-8 lg:px-12">
         <div className="max-w-[1600px] mx-auto text-center">
           <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">
-            © 2026 PIXEL PARADISE • THE ULTIMATE ARCHIVE
+            © 2026 GORO GORO • THE ULTIMATE ARCHIVE
           </p>
         </div>
       </footer>

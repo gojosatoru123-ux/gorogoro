@@ -9,8 +9,8 @@ const AboutUsPage = memo(() => {
   return (
     <div className="min-h-screen bg-[#FDFDFD] overflow-x-hidden">
       <SEO 
-        title="About Us | Pixel Paradise" 
-        description="Learn more about the team behind Pixel Paradise and our mission to build the most immersive pixel-based simulations on the web."
+        title="About Us | Goro Goro" 
+        description="Learn more about the team behind GORO GORO and our mission to build the most immersive pixel-based simulations on the web."
         canonical="https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/about"
       />
       {/* Header */}
@@ -40,7 +40,7 @@ const AboutUsPage = memo(() => {
             We Build <span className="text-orange-500">Digital</span> <br /> Playgrounds
           </h2>
           <p className="text-2xl font-medium text-slate-600 leading-tight">
-            Pixel Paradise was born from a simple idea: <span className="text-black font-black">physics should be fun.</span> We're a team of designers, engineers, and dreamers dedicated to creating the most immersive pixel-based simulations on the web.
+            GORO GORO was born from a simple idea: <span className="text-black font-black">physics should be fun.</span> We're a team of designers, engineers, and dreamers dedicated to creating the most immersive pixel-based simulations on the web.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ const AboutUsPage = memo(() => {
             </div>
             <h3 className="text-3xl font-black uppercase italic mb-4">Community</h3>
             <p className="text-slate-600 font-medium leading-relaxed">
-              Built by players, for players. We listen to our community to shape the future of Pixel Paradise.
+              Built by players, for players. We listen to our community to shape the future of GORO GORO.
             </p>
           </div>
 
@@ -141,7 +141,7 @@ const AboutUsPage = memo(() => {
       <footer className="bg-black py-20 px-4 md:px-8 lg:px-12">
         <div className="max-w-[1600px] mx-auto text-center">
           <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">
-            © 2026 PIXEL PARADISE • BUILT WITH PASSION
+            © 2026 GORO GORO • BUILT WITH PASSION
           </p>
         </div>
       </footer>
