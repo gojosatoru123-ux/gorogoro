@@ -22,12 +22,12 @@ const generatePhysicsGames = (count: number): Game[] => {
   // Add existing games first
   games.push({
     id: 'game-1',
-    slug: 'pixel-runner',
-    title: 'Pixel Runner',
-    description: 'Jump over obstacles and survive as long as you can in this retro runner.',
+    slug: 'cursor-drift',
+    title: 'Cursor Drift',
+    description: 'Navigate the pixelated world while battling against the forces of cursor drift.',
     thumbnail: '🦖',
-    category: 'Arcade',
-    component: PixelRunner,
+    category: 'Physics',
+    url: 'https://game-01-cursordrift-gorogoro.aisehibanayahai00.workers.dev/',
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Arcade', 'Runner', 'Pixel'],
