@@ -40,7 +40,6 @@ const LandingPage = memo(() => {
               <span className="text-xl">🍄</span>
             </Link>
             <nav className="hidden lg:flex items-center gap-6 font-black text-slate-900 uppercase tracking-tighter italic">
-              <Link to="/" className="hover:text-orange-500 transition-colors text-xl">Explore</Link>
               <Link to="/about" className="hover:text-orange-500 transition-colors text-xl">About Us</Link>
             </nav>
           </div>
@@ -74,13 +73,13 @@ const LandingPage = memo(() => {
                 </div>
               </h1>
               <p className="text-2xl font-medium text-slate-600 max-w-2xl leading-tight border-l-8 border-orange-500 pl-8">
-                The world's most advanced physics-based pixel playground. <span className="text-black font-black">50+ simulations</span> ready to break the laws of nature.
+                The world's most advanced playground for amazing browser games. <span className="text-black font-black">50+ simulations</span> ready to break the laws of nature.
               </p>
             </div>
             <div className="w-full lg:w-1/3 space-y-4">
                <div className="p-6 bg-yellow-300 border-4 border-black shadow-[8px_8px_0px_black] rounded-[2rem] rotate-1 hover:rotate-0 transition-transform">
                   <h4 className="text-xl font-black uppercase italic mb-1">Daily Drop</h4>
-                  <p className="font-bold text-xs leading-tight">New physics engine update just landed. Gravity is now 15% more unpredictable!</p>
+                  <p className="font-bold text-xs leading-tight">Tired of the same old loops? Break free with GOROGORO’s one-of-a-kind library.</p>
                </div>
                <AdSpace className="w-full h-[180px] brutal-border bg-white" label="Featured Sponsor" />
                <AdSpace className="w-full h-[100px] brutal-border bg-slate-50" label="Mini Hero Ad" />
@@ -306,14 +305,6 @@ const LandingPage = memo(() => {
               </div>
             </div>
             <div className="space-y-8">
-               <div className="bg-[#FF6321] p-8 rounded-[2rem] border-4 border-black shadow-[8px_8px_0px_black]">
-                  <h4 className="text-2xl font-black uppercase italic mb-4">Join the Lab</h4>
-                  <p className="font-medium mb-6">Get early access to new physics simulations and pixel drops.</p>
-                  <div className="flex gap-2">
-                    <input type="text" placeholder="EMAIL" className="flex-1 bg-white border-2 border-black px-4 py-2 rounded-lg font-bold text-sm" />
-                    <button className="bg-black text-white px-4 py-2 rounded-lg font-black uppercase italic text-sm">GO</button>
-                  </div>
-               </div>
                <AdSpace className="h-[200px] brutal-border bg-white" label="Community Ad" />
             </div>
           </div>
@@ -344,17 +335,16 @@ const LandingPage = memo(() => {
              <div className="space-y-2">
                 <h5 className="text-white font-black uppercase italic text-sm">Connect</h5>
                 <ul className="text-slate-500 space-y-1 font-medium text-sm">
-                  <li><a href="#" className="hover:text-white transition-colors">Discord</a></li>
                   <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
                   <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">GitHub</a></li>
+                  <li><a href="#" className="hover:text-white transition-colors">Youtube</a></li>
                 </ul>
              </div>
           </div>
           
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-[10px] font-bold uppercase tracking-widest">
             <div className="flex items-center gap-4">
-              <span>© 2026 GORO GORO</span>
+              <span>© 2026 GORO GORO - By CursorBits</span>
               <span className="w-1 h-1 bg-slate-700 rounded-full" />
               <span>MADE WITH PASSION</span>
             </div>
