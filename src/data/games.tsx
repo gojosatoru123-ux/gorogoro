@@ -35,12 +35,12 @@ const generatePhysicsGames = (count: number): Game[] => {
 
   games.push({
     id: 'game-2',
-    slug: 'memory-match',
-    title: 'Memory Match',
-    description: 'Test your memory by matching pixelated emojis.',
+    slug: 'bubble-sling',
+    title: 'Bubble Sling',
+    description: 'Guide the pearl to its destination.',
     thumbnail: '🧠',
-    category: 'Puzzle',
-    component: MemoryMatch,
+    category: 'Physics',
+    url: 'https://game-02-bubblesling-gorogoro.aisehibanayahai00.workers.dev/',
     color: 'bg-[#E8F5E9]',
     size: 'tall',
     tags: ['Puzzle', 'Memory', 'Casual'],
@@ -49,41 +49,41 @@ const generatePhysicsGames = (count: number): Game[] => {
   // Add some URL-based games
   games.push({
     id: 'game-3',
-    slug: '2048',
-    title: '2048',
-    description: 'Join the numbers and get to the 2048 tile!',
+    slug: 'flappy-bubble',
+    title: 'Flappy Bubble',
+    description: 'Flap your bubble and navigate through the obstacles.',
     thumbnail: '🔢',
-    category: 'Puzzle',
-    url: 'https://play2048.co/',
+    category: 'Physics',
+    url: 'https://game-03-flappybubble-gorogoro.aisehibanayahai00.workers.dev/',
     color: 'bg-[#FFF9C4]',
     size: 'medium',
-    tags: ['Puzzle', 'Numbers', 'Classic'],
+    tags: ['Puzzle', 'Numbers', 'Classic', 'Physics'],
   });
 
   games.push({
     id: 'game-4',
-    slug: 'flappy-bird',
-    title: 'Flappy Bird',
-    description: 'Flap your wings and fly through the pipes.',
+    slug: 'aura-ball-collision',
+    title: 'Aura Ball Collision',
+    description: 'Pulse the space around you navigate and collect fragments.',
     thumbnail: '🐦',
-    category: 'Arcade',
-    url: 'https://flappybird.io/',
+    category: 'Physics',
+    url: 'https://game-04-ballcollision-gorogoro.aisehibanayahai00.workers.dev/',
     color: 'bg-[#FCE4EC]',
     size: 'medium',
-    tags: ['Arcade', 'Hard', 'Classic'],
+    tags: ['Arcade', 'Hard', 'Classic', 'Physics'],
   });
 
   games.push({
     id: 'game-5',
-    slug: 'tetris',
-    title: 'Tetris',
-    description: 'The classic block-stacking puzzle game.',
+    slug: 'ball-jump',
+    title: 'Ball Jump',
+    description: 'Jump the stacks.',
     thumbnail: '🧱',
-    category: 'Puzzle',
-    url: 'https://tetris.com/play-tetris',
+    category: 'Physics',
+    url: 'https://game-05-balljump-gorogoro.aisehibanayahai00.workers.dev/',
     color: 'bg-[#F3E5F5]',
     size: 'large',
-    tags: ['Puzzle', 'Classic', 'Retro'],
+    tags: ['Puzzle', 'Classic', 'Retro', 'Physics'],
   });
 
   games.push({
