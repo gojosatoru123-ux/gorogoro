@@ -200,10 +200,10 @@ const GamePage = memo(() => {
               {/* Fullscreen Toggle Button */}
               <button 
                 onClick={toggleFullscreen}
-                className="absolute bottom-8 right-8 px-6 h-14 bg-black text-white border-2 border-white rounded-2xl flex items-center gap-3 opacity-0 group-hover/game:opacity-100 transition-all shadow-[4px_4px_0px_white] hover:scale-105 active:scale-95 z-20 font-black uppercase italic text-sm"
+                className="absolute bottom-8 right-8 px-6 h-14 bg-black text-white border-2 border-white rounded-2xl flex items-center gap-3 group-hover/game:opacity-100 transition-all shadow-[4px_4px_0px_white] hover:scale-105 active:scale-95 z-20 font-black uppercase italic text-sm"
                 title={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
               >
-                <span className="hidden md:block">{isFullscreen ? "Exit Fullscreen" : "Fullscreen Mode"}</span>
+                {/* <span className="block">{isFullscreen ? "Exit Fullscreen" : "Fullscreen Mode"}</span> */}
                 {isFullscreen ? <Minimize2 className="w-6 h-6" /> : <Maximize2 className="w-6 h-6" />}
               </button>
             </section>
