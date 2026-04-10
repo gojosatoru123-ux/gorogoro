@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type GameCategory = 'Action' | 'Puzzle' | 'Adventure' | 'Arcade' | 'Physics' | 'Simulation';
+export type GameCategory = 'Action' | 'Puzzle' | 'Adventure' | 'Arcade' | 'Physics' | 'Simulation' | 'Stickman';
 
 export interface Game {
   id: string;

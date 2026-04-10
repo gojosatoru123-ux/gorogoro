@@ -18,8 +18,7 @@ const PHYSICS_EMOJIS = ['⚙️', '🏗️', '🧱', '⚖️', '🧲', '🧨', '
 
 const generatePhysicsGames = (count: number): Game[] => {
   const games: Game[] = [];
-  
-  // Add existing games first
+
   games.push({
     id: 'game-1',
     slug: 'cursor-drift',
@@ -46,7 +45,6 @@ const generatePhysicsGames = (count: number): Game[] => {
     tags: ['Puzzle', 'Memory', 'Casual'],
   });
 
-  // Add some URL-based games
   games.push({
     id: 'game-3',
     slug: 'flappy-bubble',
@@ -151,27 +149,53 @@ const generatePhysicsGames = (count: number): Game[] => {
     tags: ['Arcade', 'Classic', 'Retro'],
   });
 
-  // Generate 50+ Physics Games
-  for (let i = 1; i <= count; i++) {
-    const colorIdx = i % COLORS.length;
-    const emojiIdx = i % PHYSICS_EMOJIS.length;
-    const sizes: ('medium' | 'small' | 'tall')[] = ['medium', 'small', 'tall'];
-    const size = sizes[i % sizes.length];
+  games.push({
+    id: 'game-11',
+    slug: 'stickman-archer',
+    title: 'Stickman Archery',
+    description: 'Kill enemies and show your bow arrow skills.',
+    thumbnail: '🐍',
+    category: 'Stickman',
+    url: 'https://game-08-stickmanarcher-cursorbits.aisehibanayahai00.workers.dev',
+    color: 'bg-[#E8F5E9]',
+    size: 'medium',
+    tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
+  });
 
-    games.push({
-      id: `physics-${i}`,
-      slug: `physics-game-${i}`,
-      title: `Physics Master ${i}`,
-      description: `Challenge your understanding of physics in this level ${i} puzzle.`,
-      longDescription: `Physics Master ${i} is a deep dive into advanced mechanics. Use gravity, friction, and momentum to solve increasingly complex puzzles. Every move counts in this physics-authoritative simulation.`,
-      thumbnail: PHYSICS_EMOJIS[emojiIdx],
-      category: 'Physics',
-      component: () => <PhysicsGameContainer title={`Physics Master ${i}`} />,
-      color: COLORS[colorIdx],
-      size: size,
-      tags: ['Physics', 'Simulation', 'Puzzle', 'Gravity'],
-    });
-  }
+  games.push({
+    id: 'game-12',
+    slug: 'dead-zone',
+    title: 'Deadzone Shooting',
+    description: 'Shoot and defence. Kill the Enemies.',
+    thumbnail: '🐍',
+    category: 'Arcade',
+    url: 'https://game-04-deadzone-cursorbits-game.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E8F5E9]',
+    size: 'medium',
+    tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
+  });
+
+  // Generate 50+ Physics Games
+  // for (let i = 1; i <= count; i++) {
+  //   const colorIdx = i % COLORS.length;
+  //   const emojiIdx = i % PHYSICS_EMOJIS.length;
+  //   const sizes: ('medium' | 'small' | 'tall')[] = ['medium', 'small', 'tall'];
+  //   const size = sizes[i % sizes.length];
+
+  //   games.push({
+  //     id: `physics-${i}`,
+  //     slug: `physics-game-${i}`,
+  //     title: `Physics Master ${i}`,
+  //     description: `Challenge your understanding of physics in this level ${i} puzzle.`,
+  //     longDescription: `Physics Master ${i} is a deep dive into advanced mechanics. Use gravity, friction, and momentum to solve increasingly complex puzzles. Every move counts in this physics-authoritative simulation.`,
+  //     thumbnail: PHYSICS_EMOJIS[emojiIdx],
+  //     category: 'Physics',
+  //     component: () => <PhysicsGameContainer title={`Physics Master ${i}`} />,
+  //     color: COLORS[colorIdx],
+  //     size: size,
+  //     tags: ['Physics', 'Simulation', 'Puzzle', 'Gravity'],
+  //   });
+  // }
 
   return games;
 };
