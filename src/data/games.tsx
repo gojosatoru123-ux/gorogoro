@@ -175,6 +175,84 @@ const generatePhysicsGames = (count: number): Game[] => {
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
   });
 
+  games.push({
+    id: 'game-13',
+    slug: 'shoot-the-line',
+    title: 'Shoot The Line',
+    description: 'Precision timing and fast reflexes. Clear the trajectory before the line breaks.',
+    thumbnail: '🎯',
+    category: 'Arcade',
+    url: 'https://game-09-shoot-the-line-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FFF3E0]',
+    size: 'medium',
+    tags: ['Arcade', 'Physics'],
+  });
+  
+  games.push({
+    id: 'game-14',
+    slug: 'zenith-boomerang',
+    title: 'Boomerang',
+    description: 'Master the physics of the return. Throw and catch to survive the waves.',
+    thumbnail: '🪃',
+    category: 'Physics',
+    url: 'https://game-10-zenith-boomerang-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#F3E5F5]',
+    size: 'tall',
+    tags: ['Physics', 'Action'],
+  });
+  
+  games.push({
+    id: 'game-15',
+    slug: 'lemmings-march',
+    title: 'Lemmings March',
+    description: 'Lead your troop through hazardous terrain. Strategy and survival combined.',
+    thumbnail: '🐾',
+    category: 'Adventure',
+    url: 'https://game-11-lemmings-march-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E3F2FD]',
+    size: 'large',
+    tags: ['Adventure', 'Puzzle'],
+  });
+  
+  games.push({
+    id: 'game-16',
+    slug: 'shinobi-shadow',
+    title: 'Shinobi Shadow',
+    description: 'Strike from the dark. A fast-paced stealth experience for the modern ninja.',
+    thumbnail: '🥷',
+    category: 'Action',
+    url: 'https://game-05-shinobishadow-cursorbits-game.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#EFEBE9]',
+    size: 'medium',
+    tags: ['Action', 'Adventure', 'Arcade'],
+  });
+  
+  games.push({
+    id: 'game-17',
+    slug: 'ohflip',
+    title: 'Oh! Flip',
+    description: 'Defy gravity with stylish stunts. Land perfectly or it is game over.',
+    thumbnail: '🤸',
+    category: 'Physics',
+    url: 'https://game-12-ohflip-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FCE4EC]',
+    size: 'small',
+    tags: ['Physics', 'Arcade', 'Stickman'],
+  });
+  
+  games.push({
+    id: 'game-18',
+    slug: 'bitbound',
+    title: 'Bitbound',
+    description: 'Trapped in a digital glitch. Dash and bounce your way to the exit.',
+    thumbnail: '⛓️',
+    category: 'Arcade',
+    url: 'https://game-13-bitbound-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle'],
+  });
+
   // Generate 50+ Physics Games
   // for (let i = 1; i <= count; i++) {
   //   const colorIdx = i % COLORS.length;
