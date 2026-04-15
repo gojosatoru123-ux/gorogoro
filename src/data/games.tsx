@@ -253,6 +253,58 @@ const generatePhysicsGames = (count: number): Game[] => {
     tags: ['Arcade', 'Puzzle'],
   });
 
+  games.push({
+    id: 'game-19',
+    slug: 'vierwizard',
+    title: 'Vier Wizard',
+    description: 'Attack with orbs and defend with shields. A magical twist on classic arcade action.',
+    thumbnail: '⛓️',
+    category: 'Arcade',
+    url: 'https://game-17-vier-wizard-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle', 'Physics'],
+  });
+
+  games.push({
+    id: 'game-20',
+    slug: 'sky-balloon-shooter',
+    title: 'Sky Balloon Shooter',
+    description: 'Shoot the balloons in the sky. A physics-based shooting game with a twist of arcade fun.',
+    thumbnail: '⛓️',
+    category: 'Arcade',
+    url: 'https://game-16-sky-shooter-balloon-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle', 'Physics'],
+  });
+
+  games.push({
+    id: 'game-21',
+    slug: 'word-ladder',
+    title: 'Word Ladder',
+    description: 'Relate words and find the target word. A mental workout for word lovers.',
+    thumbnail: '⛓️',
+    category: 'Arcade',
+    url: 'https://game-15-word-ladder-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle','Word'],
+  });
+
+  games.push({
+    id: 'game-22',
+    slug: 'lexiquest-wordsearch',
+    title: 'LexiQuest Wordsearch',
+    description: 'The modern evolution of word search. 100 levels of pure mental stimulation.',
+    thumbnail: '⛓️',
+    category: 'Arcade',
+    url: 'https://game-14-lexiquest-wordsearch-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle','Word'],
+  });
+
   // Generate 50+ Physics Games
   // for (let i = 1; i <= count; i++) {
   //   const colorIdx = i % COLORS.length;
