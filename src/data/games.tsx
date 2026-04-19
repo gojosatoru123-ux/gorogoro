@@ -305,6 +305,122 @@ const generatePhysicsGames = (count: number): Game[] => {
     tags: ['Arcade', 'Puzzle','Word'],
   });
 
+  games.push({
+    id: 'game-23',
+    slug: 'geoatlas',
+    title: 'GeoAtlas',
+    description: 'The definitive map-based challenge. Test your knowledge of world countries and capitals.',
+    thumbnail: '🌍',
+    category: 'Geography',
+    url: 'https://game-23-geoatlas-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Map', 'Education'],
+  });
+
+  games.push({
+    id: 'game-24',
+    slug: 'georecall',
+    title: 'GeoRecall',
+    description: 'A memory-based geography game. Recall locations and landmarks across the globe.',
+    thumbnail: '🧠',
+    category: 'Geography',
+    url: 'https://game-21-georecall-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Memory', 'Puzzle'],
+  });
+
+  games.push({
+    id: 'game-25',
+    slug: 'borderquest',
+    title: 'BorderQuest',
+    description: 'Navigate through international borders and identify nations by their unique shapes.',
+    thumbnail: '🗺️',
+    category: 'Geography',
+    url: 'https://game-24-borderquest-geo-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Borders', 'Quiz'],
+  });
+
+  games.push({
+    id: 'game-26',
+    slug: 'map-match',
+    title: 'Map Match',
+    description: 'Connect countries to their corresponding territories in this fast-paced geography racer.',
+    thumbnail: '🏁',
+    category: 'Geography',
+    url: 'https://game-26-map-match-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Matching', 'Arcade'],
+  });
+
+  games.push({
+    id: 'game-27',
+    slug: 'geo-explorer',
+    title: 'Geo Explorer',
+    description: 'Embark on a digital expedition to discover hidden gems around the world.',
+    thumbnail: '🔭',
+    category: 'Geography',
+    url: 'https://game-25-geo-explorer-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Discovery', 'Adventure'],
+  });
+
+  games.push({
+    id: 'game-28',
+    slug: 'geopath',
+    title: 'GeoPath',
+    description: 'Find the shortest path between global hubs and master the world’s transit lines.',
+    thumbnail: '🛣️',
+    category: 'Geography',
+    url: 'https://game-22-geopath-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Logic', 'Pathfinding'],
+  });
+
+  games.push({
+    id: 'game-29',
+    slug: 'optigrid',
+    title: 'OptiGrid',
+    description: 'A precision-based grid puzzle. Align the elements to clear the screen.',
+    thumbnail: '📐',
+    category: 'Puzzle',
+    url: 'https://game-20-optigrid-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Puzzle', 'Grid', 'Logic'],
+  });
+
+  games.push({
+    id: 'game-30',
+    slug: 'netwalk',
+    title: 'NetWalk',
+    description: 'Rotate the network pipes to bring the system back online.',
+    thumbnail: '🌐',
+    category: 'Puzzle',
+    url: 'https://game-19-netwalk-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Puzzle', 'Strategy', 'Connection'],
+  });
+
+  games.push({
+    id: 'game-31',
+    slug: 'chromafit',
+    title: 'ChromaFit',
+    description: 'Match colors and shapes in this vibrant evolution of the classic arcade puzzle.',
+    thumbnail: '🎨',
+    category: 'Arcade',
+    url: 'https://game-18-chromafit-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Arcade', 'Puzzle', 'Color'],
+  });
   // Generate 50+ Physics Games
   // for (let i = 1; i <= count; i++) {
   //   const colorIdx = i % COLORS.length;
