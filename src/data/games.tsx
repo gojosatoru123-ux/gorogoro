@@ -421,28 +421,98 @@ const generatePhysicsGames = (count: number): Game[] => {
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Color'],
   });
-  // Generate 50+ Physics Games
-  // for (let i = 1; i <= count; i++) {
-  //   const colorIdx = i % COLORS.length;
-  //   const emojiIdx = i % PHYSICS_EMOJIS.length;
-  //   const sizes: ('medium' | 'small' | 'tall')[] = ['medium', 'small', 'tall'];
-  //   const size = sizes[i % sizes.length];
+  
+  games.push({
+    id: 'game-32',
+    slug: 'emoji-slasher',
+    title: 'Emoji Slasher',
+    description: 'Use your hands to slice through waves of emojis in this high-energy webcam challenge.',
+    thumbnail: '⚔️',
+    category: 'WebCam',
+    url: 'https://game-33-emoji-slasher-cam-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FFF9C4]',
+    size: 'medium',
+    tags: ['WebCam', 'Action', 'Slasher'],
+  });
 
-  //   games.push({
-  //     id: `physics-${i}`,
-  //     slug: `physics-game-${i}`,
-  //     title: `Physics Master ${i}`,
-  //     description: `Challenge your understanding of physics in this level ${i} puzzle.`,
-  //     longDescription: `Physics Master ${i} is a deep dive into advanced mechanics. Use gravity, friction, and momentum to solve increasingly complex puzzles. Every move counts in this physics-authoritative simulation.`,
-  //     thumbnail: PHYSICS_EMOJIS[emojiIdx],
-  //     category: 'Physics',
-  //     component: () => <PhysicsGameContainer title={`Physics Master ${i}`} />,
-  //     color: COLORS[colorIdx],
-  //     size: size,
-  //     tags: ['Physics', 'Simulation', 'Puzzle', 'Gravity'],
-  //   });
-  // }
+  games.push({
+    id: 'game-33',
+    slug: 'fruit-slasher',
+    title: 'Fruit Slasher',
+    description: 'A classic reimagined! Slice flying fruit with hand-tracking precision via your camera.',
+    thumbnail: '🍎',
+    category: 'WebCam',
+    url: 'https://game-32-fruit-slasher-cam-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#F1F8E9]',
+    size: 'medium',
+    tags: ['WebCam', 'Arcade', 'Slasher'],
+  });
 
+  games.push({
+    id: 'game-34',
+    slug: 'catch-the-ball',
+    title: 'Catch the Ball',
+    description: 'Test your reflexes by catching falling digital balls using your real-world hand movements.',
+    thumbnail: '🎾',
+    category: 'WebCam',
+    url: 'https://game-31-catch-the-ball-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E3F2FD]',
+    size: 'medium',
+    tags: ['WebCam', 'Reflex', 'Sports'],
+  });
+
+  games.push({
+    id: 'game-35',
+    slug: 'aerodart',
+    title: 'AeroDart',
+    description: 'Aim and throw virtual darts at the board using motion gestures in front of your lens.',
+    thumbnail: '🎯',
+    category: 'WebCam',
+    url: 'https://game-30-aerodart-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FFEBEE]',
+    size: 'medium',
+    tags: ['WebCam', 'Skill', 'Darts'],
+  });
+
+  games.push({
+    id: 'game-36',
+    slug: 'iron-repulsor',
+    title: 'Iron Repulsor',
+    description: 'Channel your inner hero. Blast targets by aiming your palms at the screen.',
+    thumbnail: '🖐️',
+    category: 'WebCam',
+    url: 'https://game-29-iron-repulsor-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#ECEFF1]',
+    size: 'medium',
+    tags: ['WebCam', 'Action', 'Hero'],
+  });
+
+  games.push({
+    id: 'game-37',
+    slug: 'ball-shooter',
+    title: 'Ball Shooter',
+    description: 'Control the launcher with your hands to blast targets in this motion-controlled arcade game.',
+    thumbnail: '☄️',
+    category: 'WebCam',
+    url: 'https://game-28-ball-shooter-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#F3E5F5]',
+    size: 'medium',
+    tags: ['WebCam', 'Shooter', 'Arcade'],
+  });
+
+  games.push({
+    id: 'game-38',
+    slug: 'rub-bunny',
+    title: 'Rub Bunny',
+    description: 'A quirky arcade challenge where speed and precision are key to interacting with your bunny pal.',
+    thumbnail: '🐰',
+    category: 'Arcade',
+    url: 'https://game-27-rub-bunny-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FFF3E0]',
+    size: 'medium',
+    tags: ['Arcade', 'Casual', 'Animals'],
+  });
+  
   return games;
 };
 
