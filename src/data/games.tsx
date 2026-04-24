@@ -30,6 +30,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Arcade', 'Runner', 'Pixel'],
+    image:'images/cursor-drift.png'
   });
 
   games.push({
@@ -43,6 +44,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'tall',
     tags: ['Puzzle', 'Memory', 'Casual'],
+    image:'images/bubble-sling.png'
   });
 
   games.push({
@@ -56,6 +58,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Puzzle', 'Numbers', 'Classic', 'Physics'],
+    image:'images/flappy-bubble.png'
   });
 
   games.push({
@@ -69,6 +72,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FCE4EC]',
     size: 'medium',
     tags: ['Arcade', 'Hard', 'Classic', 'Physics'],
+    image:'images/ball-collision.png'
   });
 
   games.push({
@@ -82,6 +86,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'large',
     tags: ['Puzzle', 'Classic', 'Retro', 'Physics'],
+    image:'images/ball-jump.png'
   });
 
   games.push({
@@ -95,6 +100,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Physics', 'Shapes', 'Daily'],
+    image:'images/balance-bloom.png'
   });
 
   games.push({
@@ -108,6 +114,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Physics', 'Classic', 'Retro'],
+    image:'images/bounce-lab.png'
   });
 
   games.push({
@@ -121,6 +128,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'small',
     tags: ['Puzzle', 'Classic', 'Strategy'],
+    image:'images/block-surfer.png'
   });
 
   games.push({
@@ -134,6 +142,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro'],
+    image:'images/typing-shooter.png'
   });
 
   games.push({
@@ -147,6 +156,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro'],
+    image:'images/maze-runner.png'
   });
 
   games.push({
@@ -160,6 +170,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
+    image:'images/stickman-archer.png'
   });
 
   games.push({
@@ -173,6 +184,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
+    image:'images/dead-zone.png'
   });
 
   games.push({
@@ -186,6 +198,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF3E0]',
     size: 'medium',
     tags: ['Arcade', 'Physics'],
+    image:'images/shoot-line.png'
   });
   
   games.push({
@@ -199,6 +212,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'tall',
     tags: ['Physics', 'Action'],
+    image:'images/zenith-boomerang.png'
   });
   
   games.push({
@@ -212,6 +226,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Adventure', 'Puzzle'],
+    image:'images/lemmings-march.png'
   });
   
   games.push({
@@ -223,21 +238,23 @@ const generatePhysicsGames = (count: number): Game[] => {
     category: 'Action',
     url: 'https://game-05-shinobishadow-cursorbits-game.aisehibanayahai00.workers.dev/',
     color: 'bg-[#EFEBE9]',
-    size: 'medium',
+    size: 'small',
     tags: ['Action', 'Adventure', 'Arcade'],
+    image:'images/shinobi-path.png'
   });
-  
+
   games.push({
     id: 'game-17',
-    slug: 'ohflip',
-    title: 'Oh! Flip',
-    description: 'Defy gravity with stylish stunts. Land perfectly or it is game over.',
-    thumbnail: '🤸',
-    category: 'Physics',
-    url: 'https://game-12-ohflip-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#FCE4EC]',
-    size: 'small',
-    tags: ['Physics', 'Arcade', 'Stickman'],
+    slug: 'geoatlas',
+    title: 'GeoAtlas',
+    description: 'The definitive map-based challenge. Test your knowledge of world countries and capitals.',
+    thumbnail: '🌍',
+    category: 'Geography',
+    url: 'https://game-23-geoatlas-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
+    size: 'medium',
+    tags: ['Geography', 'Map', 'Education'],
+    image:'images/geo-atlas.png'
   });
   
   games.push({
@@ -251,6 +268,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle'],
+    image:'images/bit-bound.png'
   });
 
   games.push({
@@ -264,6 +282,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
+    image:'images/vier-wizard.png'
   });
 
   games.push({
@@ -277,6 +296,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
+    image:'images/bubble-shooter.png'
   });
 
   games.push({
@@ -290,6 +310,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
+    image:'images/word-ladder.png'
   });
 
   games.push({
@@ -303,19 +324,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
+    image:'images/lexi-quest.png'
   });
 
   games.push({
     id: 'game-23',
-    slug: 'geoatlas',
-    title: 'GeoAtlas',
-    description: 'The definitive map-based challenge. Test your knowledge of world countries and capitals.',
-    thumbnail: '🌍',
-    category: 'Geography',
-    url: 'https://game-23-geoatlas-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#E0F2F1]',
-    size: 'medium',
-    tags: ['Geography', 'Map', 'Education'],
+    slug: 'ohflip',
+    title: 'Oh! Flip',
+    description: 'Defy gravity with stylish stunts. Land perfectly or it is game over.',
+    thumbnail: '🤸',
+    category: 'Physics',
+    url: 'https://game-12-ohflip-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FCE4EC]',
+    size: 'small',
+    tags: ['Physics', 'Arcade', 'Stickman'],
+    image:'images/oh-flip.png'
   });
 
   games.push({
@@ -329,6 +352,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Memory', 'Puzzle'],
+    image:'images/geo-recall.png'
   });
 
   games.push({
@@ -342,6 +366,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Borders', 'Quiz'],
+    image:'images/border-quest.png'
   });
 
   games.push({
@@ -355,6 +380,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Matching', 'Arcade'],
+    image:'images/map-match.png'
   });
 
   games.push({
@@ -368,6 +394,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Discovery', 'Adventure'],
+    image:'images/geo-explorer.png'
   });
 
   games.push({
@@ -381,6 +408,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Logic', 'Pathfinding'],
+    image:'images/geo-path.png'
   });
 
   games.push({
@@ -394,6 +422,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Grid', 'Logic'],
+    image:'images/opti-grid.png'
   });
 
   games.push({
@@ -407,6 +436,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Strategy', 'Connection'],
+    image:'images/nexus.png'
   });
 
   games.push({
@@ -420,6 +450,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Color'],
+    image:'images/chroma-fit.png'
   });
   
   games.push({
@@ -433,6 +464,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['WebCam', 'Action', 'Slasher'],
+    image:'images/emoji-slasher.png'
   });
 
   games.push({
@@ -446,6 +478,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F1F8E9]',
     size: 'medium',
     tags: ['WebCam', 'Arcade', 'Slasher'],
+    image:'images/fruit-slasher.png'
   });
 
   games.push({
@@ -459,6 +492,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'medium',
     tags: ['WebCam', 'Reflex', 'Sports'],
+    image:'images/catch-ball.png'
   });
 
   games.push({
@@ -472,6 +506,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFEBEE]',
     size: 'medium',
     tags: ['WebCam', 'Skill', 'Darts'],
+    image:'images/aero-dart.png'
   });
 
   games.push({
@@ -485,6 +520,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#ECEFF1]',
     size: 'medium',
     tags: ['WebCam', 'Action', 'Hero'],
+    image:'images/iron-repulsion.png'
   });
 
   games.push({
@@ -498,6 +534,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'medium',
     tags: ['WebCam', 'Shooter', 'Arcade'],
+    image:'images/ball-shooter.png'
   });
 
   games.push({
@@ -511,6 +548,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF3E0]',
     size: 'medium',
     tags: ['Arcade', 'Casual', 'Animals'],
+    image:'images/run-bunny.png'
   });
   
   return games;
