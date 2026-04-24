@@ -30,7 +30,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Arcade', 'Runner', 'Pixel'],
-    image:'images/cursor-drift.png'
+    image:'images/images1/cursor-drift.webp'
   });
 
   games.push({
@@ -44,7 +44,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'tall',
     tags: ['Puzzle', 'Memory', 'Casual'],
-    image:'images/bubble-sling.png'
+    image:'images/images1/bubble-sling.webp'
   });
 
   games.push({
@@ -58,7 +58,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Puzzle', 'Numbers', 'Classic', 'Physics'],
-    image:'images/flappy-bubble.png'
+    image:'images/images1/flappy-bubble.webp'
   });
 
   games.push({
@@ -72,21 +72,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FCE4EC]',
     size: 'medium',
     tags: ['Arcade', 'Hard', 'Classic', 'Physics'],
-    image:'images/ball-collision.png'
+    image:'images/images1/ball-collision.webp'
   });
 
   games.push({
     id: 'game-5',
-    slug: 'ball-jump',
-    title: 'Ball Jump',
-    description: 'Jump the stacks.',
-    thumbnail: '🧱',
-    category: 'Physics',
-    url: 'https://game-05-balljump-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#F3E5F5]',
-    size: 'large',
-    tags: ['Puzzle', 'Classic', 'Retro', 'Physics'],
-    image:'images/ball-jump.png'
+    slug: 'maze-runner',
+    title: 'Maze Runner',
+    description: 'Bored of typical maze games? Try this one with many twists.',
+    thumbnail: '🐍',
+    category: 'Arcade',
+    url: 'https://game-03-mazerunner-cursorbits-game.aisehibanayahai00.workers.dev',
+    color: 'bg-[#E8F5E9]',
+    size: 'medium',
+    tags: ['Arcade', 'Classic', 'Retro'],
+    image:'images/images1/maze-runner.webp'
   });
 
   games.push({
@@ -100,7 +100,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Physics', 'Shapes', 'Daily'],
-    image:'images/balance-bloom.png'
+    image:'images/images1/balance-bloom.webp'
   });
 
   games.push({
@@ -114,7 +114,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Physics', 'Classic', 'Retro'],
-    image:'images/bounce-lab.png'
+    image:'images/images1/bounce-lab.webp'
   });
 
   games.push({
@@ -128,7 +128,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'small',
     tags: ['Puzzle', 'Classic', 'Strategy'],
-    image:'images/block-surfer.png'
+    image:'images/images1/block-surfer.webp'
   });
 
   games.push({
@@ -142,21 +142,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro'],
-    image:'images/typing-shooter.png'
+    image:'images/images1/typing-shooter.webp'
   });
 
   games.push({
     id: 'game-10',
-    slug: 'maze-runner',
-    title: 'Maze Runner',
-    description: 'Bored of typical maze games? Try this one with many twists.',
-    thumbnail: '🐍',
-    category: 'Arcade',
-    url: 'https://game-03-mazerunner-cursorbits-game.aisehibanayahai00.workers.dev',
-    color: 'bg-[#E8F5E9]',
-    size: 'medium',
-    tags: ['Arcade', 'Classic', 'Retro'],
-    image:'images/maze-runner.png'
+    slug: 'ball-jump',
+    title: 'Ball Jump',
+    description: 'Jump the stacks.',
+    thumbnail: '🧱',
+    category: 'Physics',
+    url: 'https://game-05-balljump-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#F3E5F5]',
+    size: 'large',
+    tags: ['Puzzle', 'Classic', 'Retro', 'Physics'],
+    image:'images/images1/ball-jump.webp'
   });
 
   games.push({
@@ -170,7 +170,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
-    image:'images/stickman-archer.png'
+    image:'images/images1/stickman-archer.webp'
   });
 
   games.push({
@@ -184,21 +184,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
-    image:'images/dead-zone.png'
+    image:'images/images1/dead-zone.webp'
   });
 
   games.push({
     id: 'game-13',
-    slug: 'shoot-the-line',
-    title: 'Shoot The Line',
-    description: 'Precision timing and fast reflexes. Clear the trajectory before the line breaks.',
-    thumbnail: '🎯',
-    category: 'Arcade',
-    url: 'https://game-09-shoot-the-line-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#FFF3E0]',
-    size: 'medium',
-    tags: ['Arcade', 'Physics'],
-    image:'images/shoot-line.png'
+    slug: 'shinobi-shadow',
+    title: 'Shinobi Shadow',
+    description: 'Strike from the dark. A fast-paced stealth experience for the modern ninja.',
+    thumbnail: '🥷',
+    category: 'Action',
+    url: 'https://game-05-shinobishadow-cursorbits-game.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#EFEBE9]',
+    size: 'small',
+    tags: ['Action', 'Adventure', 'Arcade'],
+    image:'images/images1/shinobi-path.webp'
   });
   
   games.push({
@@ -212,7 +212,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'tall',
     tags: ['Physics', 'Action'],
-    image:'images/zenith-boomerang.png'
+    image:'images/images1/zenith-boomerang.webp'
   });
   
   games.push({
@@ -226,21 +226,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Adventure', 'Puzzle'],
-    image:'images/lemmings-march.png'
+    image:'images/images1/lemmings-march.webp'
   });
   
   games.push({
     id: 'game-16',
-    slug: 'shinobi-shadow',
-    title: 'Shinobi Shadow',
-    description: 'Strike from the dark. A fast-paced stealth experience for the modern ninja.',
-    thumbnail: '🥷',
-    category: 'Action',
-    url: 'https://game-05-shinobishadow-cursorbits-game.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#EFEBE9]',
-    size: 'small',
-    tags: ['Action', 'Adventure', 'Arcade'],
-    image:'images/shinobi-path.png'
+    slug: 'shoot-the-line',
+    title: 'Shoot The Line',
+    description: 'Precision timing and fast reflexes. Clear the trajectory before the line breaks.',
+    thumbnail: '🎯',
+    category: 'Arcade',
+    url: 'https://game-09-shoot-the-line-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#FFF3E0]',
+    size: 'medium',
+    tags: ['Arcade', 'Physics'],
+    image:'images/images1/shoot-line.webp'
   });
 
   games.push({
@@ -254,7 +254,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Map', 'Education'],
-    image:'images/geo-atlas.png'
+    image:'images/images1/geo-atlas.webp'
   });
   
   games.push({
@@ -268,7 +268,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle'],
-    image:'images/bit-bound.png'
+    image:'images/images1/bit-bound.webp'
   });
 
   games.push({
@@ -282,7 +282,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
-    image:'images/vier-wizard.png'
+    image:'images/images1/vier-wizard.webp'
   });
 
   games.push({
@@ -296,7 +296,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
-    image:'images/bubble-shooter.png'
+    image:'images/images1/bubble-shooter.webp'
   });
 
   games.push({
@@ -310,7 +310,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
-    image:'images/word-ladder.png'
+    image:'images/images1/word-ladder.webp'
   });
 
   games.push({
@@ -324,7 +324,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
-    image:'images/lexi-quest.png'
+    image:'images/images1/lexi-quest.webp'
   });
 
   games.push({
@@ -338,7 +338,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FCE4EC]',
     size: 'small',
     tags: ['Physics', 'Arcade', 'Stickman'],
-    image:'images/oh-flip.png'
+    image:'images/images1/oh-flip.webp'
   });
 
   games.push({
@@ -352,7 +352,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Memory', 'Puzzle'],
-    image:'images/geo-recall.png'
+    image:'images/images1/geo-recall.webp'
   });
 
   games.push({
@@ -366,7 +366,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Borders', 'Quiz'],
-    image:'images/border-quest.png'
+    image:'images/images1/border-quest.webp'
   });
 
   games.push({
@@ -380,7 +380,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Matching', 'Arcade'],
-    image:'images/map-match.png'
+    image:'images/images1/map-match.webp'
   });
 
   games.push({
@@ -394,7 +394,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Discovery', 'Adventure'],
-    image:'images/geo-explorer.png'
+    image:'images/images1/geo-explorer.webp'
   });
 
   games.push({
@@ -408,7 +408,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Logic', 'Pathfinding'],
-    image:'images/geo-path.png'
+    image:'images/images1/geo-path.webp'
   });
 
   games.push({
@@ -422,7 +422,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Grid', 'Logic'],
-    image:'images/opti-grid.png'
+    image:'images/images1/opti-grid.webp'
   });
 
   games.push({
@@ -436,21 +436,21 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Strategy', 'Connection'],
-    image:'images/nexus.png'
+    image:'images/images1/nexus.webp'
   });
 
   games.push({
     id: 'game-31',
-    slug: 'chromafit',
-    title: 'ChromaFit',
-    description: 'Match colors and shapes in this vibrant evolution of the classic arcade puzzle.',
-    thumbnail: '🎨',
-    category: 'Arcade',
-    url: 'https://game-18-chromafit-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#E0F2F1]',
+    slug: 'iron-repulsor',
+    title: 'Iron Repulsor',
+    description: 'Channel your inner hero. Blast targets by aiming your palms at the screen.',
+    thumbnail: '🖐️',
+    category: 'WebCam',
+    url: 'https://game-29-iron-repulsor-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#ECEFF1]',
     size: 'medium',
-    tags: ['Arcade', 'Puzzle', 'Color'],
-    image:'images/chroma-fit.png'
+    tags: ['WebCam', 'Action', 'Hero'],
+    image:'images/images1/iron-repulsion.webp'
   });
   
   games.push({
@@ -464,7 +464,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['WebCam', 'Action', 'Slasher'],
-    image:'images/emoji-slasher.png'
+    image:'images/images1/emoji-slasher.webp'
   });
 
   games.push({
@@ -478,7 +478,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F1F8E9]',
     size: 'medium',
     tags: ['WebCam', 'Arcade', 'Slasher'],
-    image:'images/fruit-slasher.png'
+    image:'images/images1/fruit-slasher.webp'
   });
 
   games.push({
@@ -492,7 +492,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'medium',
     tags: ['WebCam', 'Reflex', 'Sports'],
-    image:'images/catch-ball.png'
+    image:'images/images1/catch-ball.webp'
   });
 
   games.push({
@@ -506,22 +506,22 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFEBEE]',
     size: 'medium',
     tags: ['WebCam', 'Skill', 'Darts'],
-    image:'images/aero-dart.png'
+    image:'images/images1/aero-dart.webp'
   });
 
   games.push({
     id: 'game-36',
-    slug: 'iron-repulsor',
-    title: 'Iron Repulsor',
-    description: 'Channel your inner hero. Blast targets by aiming your palms at the screen.',
-    thumbnail: '🖐️',
-    category: 'WebCam',
-    url: 'https://game-29-iron-repulsor-gorogoro.aisehibanayahai00.workers.dev/',
-    color: 'bg-[#ECEFF1]',
+    slug: 'chromafit',
+    title: 'ChromaFit',
+    description: 'Match colors and shapes in this vibrant evolution of the classic arcade puzzle.',
+    thumbnail: '🎨',
+    category: 'Arcade',
+    url: 'https://game-18-chromafit-gorogoro.aisehibanayahai00.workers.dev/',
+    color: 'bg-[#E0F2F1]',
     size: 'medium',
-    tags: ['WebCam', 'Action', 'Hero'],
-    image:'images/iron-repulsion.png'
-  });
+    tags: ['Arcade', 'Puzzle', 'Color'],
+    image:'images/images1/chroma-fit.webp'
+  });  
 
   games.push({
     id: 'game-37',
@@ -534,7 +534,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'medium',
     tags: ['WebCam', 'Shooter', 'Arcade'],
-    image:'images/ball-shooter.png'
+    image:'images/images1/ball-shooter.webp'
   });
 
   games.push({
@@ -548,7 +548,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF3E0]',
     size: 'medium',
     tags: ['Arcade', 'Casual', 'Animals'],
-    image:'images/run-bunny.png'
+    image:'images/images1/run-bunny.webp'
   });
   
   return games;

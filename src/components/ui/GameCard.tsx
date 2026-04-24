@@ -12,10 +12,10 @@ interface GameCardProps {
 
 const GameCard = React.memo(({ game }: GameCardProps) => {
   const sizeClasses = {
-    large: 'col-span-12 md:col-span-7 row-span-6',
-    medium: 'col-span-12 md:col-span-7 row-span-4',
-    small: 'col-span-12 md:col-span-3 row-span-3',
-    tall: 'col-span-12 md:col-span-2 row-span-4',
+    large: 'col-span-12 md:col-span-6 row-span-6',
+    medium: 'col-span-12 md:col-span-6 row-span-4',
+    small: 'col-span-12 md:col-span-4 row-span-3',
+    tall: 'col-span-12 md:col-span-3 row-span-4',
   };
 
   /**
@@ -45,15 +45,10 @@ const GameCard = React.memo(({ game }: GameCardProps) => {
             src={screenshotUrl} 
             alt={`${game.title} preview`} 
             loading="lazy"
-            className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110 group-hover:opacity-70 filter contrast-[1.1] brightness-[0.8]"
+            className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110 group-hover:opacity-70 filter contrast-[1.1] brightness-[0.9]"
           />
-          {/* Gradient Overlay for Legibility
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/40" /> */}
+          
         </div>
-
-        {/* Retro Scanline Overlay */}
-        <div className="absolute inset-0 pointer-events-none z-20 opacity-[0.05] group-hover:opacity-[0.1] transition-opacity" 
-             style={{ backgroundImage: 'linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03))', backgroundSize: '100% 2px, 2px 100%' }} />
 
         {/* UI Content Layer */}
         <div className="relative z-30 flex flex-col h-full justify-between">

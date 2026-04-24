@@ -121,16 +121,16 @@ const AllGamesPage = memo(() => {
                 game={{
                   ...game,
                   // Dynamic sizing for a "amazing" look
-                  size: index % 12 === 0 ? 'large' : index % 7 === 0 ? 'tall' : index % 4 === 0 ? 'medium' : 'small'
+                  size: index % 10 === 0 ? 'large' : index % 7 === 0 ? 'tall' : index % 4 === 0 ? 'medium' : 'small'
                 }} 
               />
               {index % 12 === 11 && (
-                <div className="col-span-12 md:col-span-4 row-span-2">
+                <div className="col-span-14 md:col-span-4 row-span-2">
                   <AdSpace className="w-full h-full" label="In-Grid Ad" />
                 </div>
               )}
               {index % 20 === 19 && (
-                <div className="col-span-12">
+                <div className="col-span-14">
                   <AdSpace className="w-full h-[100px]" label="Horizontal Grid Ad" />
                 </div>
               )}
@@ -143,6 +143,7 @@ const AllGamesPage = memo(() => {
           ref={loaderRef} 
           className="py-12 flex flex-col items-center justify-center gap-4"
         >
+          <AdSpace className="w-full h-[100px]" label="Horizontal Grid Ad" />
           {visibleCount < filteredGames.length ? (
             <>
               <div className="w-12 h-12 border-4 border-slate-200 border-t-orange-500 rounded-full animate-spin" />
@@ -162,6 +163,7 @@ const AllGamesPage = memo(() => {
           )}
         </div>
       </main>
+      <AdSpace className="w-full h-[100px]" label="Horizontal Grid Ad" />
 
       <footer className="bg-black py-20 px-4 md:px-8 lg:px-12">
         <div className="max-w-[1600px] mx-auto text-center">
