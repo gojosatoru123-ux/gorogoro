@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, memo } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ArrowLeft, Share2, Heart, Info, Play, ChevronRight, Maximize2, Minimize2 } from 'lucide-react';
+import { ArrowLeft, Share2, Heart, Info, Play, ChevronRight, Maximize2, Minimize2, ArrowUpRight, Target } from 'lucide-react';
 import { GAMES } from '../data/games';
 import GameCard from './ui/GameCard';
 import AdSpace from '../components/AdSpace';
@@ -80,7 +80,7 @@ const GamePage = memo(() => {
   return (
     <div className="min-h-screen bg-[#FDFDFD] overflow-x-hidden">
       {game && (
-        <SEO 
+        <SEO
           title={`${game.title} | GORO GORO`}
           description={game.description}
           canonical={`https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/game/${game.slug}`}
@@ -97,7 +97,7 @@ const GamePage = memo(() => {
       {/* Game Header / Nav */}
       <header className="p-4 md:p-8 flex items-center justify-between border-b-4 border-black bg-white sticky top-0 z-50">
         <div className="flex items-center gap-6">
-          <button 
+          <button
             onClick={() => navigate(-1)}
             className="w-12 h-12 bg-slate-100 border-2 border-black rounded-xl flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors"
           >
@@ -112,9 +112,6 @@ const GamePage = memo(() => {
           <button className="w-12 h-12 border-2 border-black rounded-xl flex items-center justify-center hover:bg-slate-100 transition-colors">
             <Share2 className="w-5 h-5" />
           </button>
-          <button className="w-12 h-12 border-2 border-black rounded-xl flex items-center justify-center hover:bg-red-500 hover:text-white transition-colors">
-            <Heart className="w-5 h-5" />
-          </button>
         </div>
       </header>
 
@@ -126,7 +123,7 @@ const GamePage = memo(() => {
           {/* Left Column: Game Area & Description (9 cols) */}
           <div className="lg:col-span-9 space-y-12">
             {/* Main Game Section */}
-            <section 
+            <section
               ref={gameContainerRef}
               className={cn(
                 "w-full aspect-video rounded-[3rem] overflow-hidden shadow-[16px_16px_0px_black] relative border-4 border-black group/game",
@@ -142,10 +139,10 @@ const GamePage = memo(() => {
                         <div className="w-24 h-24 border-8 border-slate-200 border-t-orange-500 rounded-full animate-spin mb-8" />
                         <h2 className="text-3xl font-black uppercase italic animate-pulse">Loading Simulation...</h2>
                         <p className="text-slate-400 font-bold mt-4 uppercase tracking-widest">Connecting to {new URL(game.url).hostname}</p>
-                        
+
                         <div className="mt-12 flex flex-col items-center gap-4">
                           <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Taking too long?</p>
-                          <button 
+                          <button
                             onClick={() => setLoadError(true)}
                             className="px-6 py-2 bg-white border-2 border-black rounded-lg text-[10px] font-black uppercase italic hover:bg-slate-100 transition-colors"
                           >
@@ -154,7 +151,7 @@ const GamePage = memo(() => {
                         </div>
                       </div>
                     )}
-                    
+
                     {loadError && (
                       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-white p-12 text-center">
                         <span className="text-8xl mb-8">⚠️</span>
@@ -162,9 +159,9 @@ const GamePage = memo(() => {
                         <p className="text-xl font-medium text-slate-600 max-w-md mb-8">
                           This game's security settings prevent it from being played directly inside our paradise window.
                         </p>
-                        <a 
-                          href={game.url} 
-                          target="_blank" 
+                        <a
+                          href={game.url}
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="px-10 py-5 bg-black text-white border-4 border-black shadow-[8px_8px_0px_#FF6321] rounded-2xl font-black uppercase italic hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                         >
@@ -173,11 +170,11 @@ const GamePage = memo(() => {
                       </div>
                     )}
 
-                    <iframe 
-                      src={game.url} 
+                    <iframe
+                      src={game.url}
                       className={cn("w-full h-full border-0 transition-opacity duration-500", isLoading ? "opacity-0" : "opacity-100")}
                       title={game.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-sharecamera; geolocation"
                       allowFullScreen
                       referrerPolicy="no-referrer"
                       sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation"
@@ -198,9 +195,9 @@ const GamePage = memo(() => {
               </div>
 
               {/* Fullscreen Toggle Button */}
-              <button 
+              <button
                 onClick={toggleFullscreen}
-                className={`absolute bottom-8 right-8 px-6 h-14 bg-black text-white border-2 border-white rounded-2xl flex items-center gap-3  md:group-hover/game:opacity-100 transition-all shadow-[4px_4px_0px_white] hover:scale-105 active:scale-95 z-20 font-black uppercase italic text-sm ${isFullscreen?'opacity-0  md:group-hover/game:opacity-100':'opacity-100 md:opacity-0'}`}
+                className={`absolute bottom-8 right-8 px-6 h-14 bg-black text-white border-2 border-white rounded-2xl flex items-center gap-3  md:group-hover/game:opacity-100 transition-all shadow-[4px_4px_0px_white] hover:scale-105 active:scale-95 z-20 font-black uppercase italic text-sm ${isFullscreen ? 'opacity-0  md:group-hover/game:opacity-100' : 'opacity-100 md:opacity-0'}`}
                 title={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
               >
                 {isFullscreen ? <Minimize2 className="w-6 h-6" /> : <Maximize2 className="w-6 h-6" />}
@@ -241,7 +238,7 @@ const GamePage = memo(() => {
                     <Info className="w-6 h-6" /> Pro Tip
                   </h4>
                   <p className="font-bold text-black leading-tight">
-                    Master the physics engine by observing how gravity affects different materials. 
+                    Master the physics engine by observing how gravity affects different materials.
                     Heavier objects have more momentum but are harder to stop!
                   </p>
                 </div>
@@ -254,28 +251,70 @@ const GamePage = memo(() => {
             <div className="sticky top-32 space-y-8">
               <AdSpace className="h-[250px] brutal-border bg-white" label="Premium Sponsor" />
               <AdSpace className="h-[100px] brutal-border bg-orange-50" label="Quick Ad" />
-              
+
               <div className="space-y-4">
                 <h3 className="text-2xl font-black uppercase italic px-2 flex items-center justify-between">
                   Quick Picks
                   <Link to="/games" className="text-xs text-orange-500 hover:underline">View All</Link>
                 </h3>
                 <div className="space-y-4">
-                  {sidebarRelated.map(related => (
-                    <Link 
-                      key={related.id} 
-                      to={`/game/${related.slug}`}
-                      className="flex items-center gap-6 p-6 bg-white rounded-3xl border-4 border-black shadow-[4px_4px_0px_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all group"
-                    >
-                      <div className={cn("w-20 h-20 rounded-2xl border-2 border-black flex items-center justify-center text-4xl shrink-0", related.color)}>
-                        {related.thumbnail}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <h4 className="text-lg font-black uppercase italic truncate group-hover:text-orange-500 transition-colors">{related.title}</h4>
-                        <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">{related.category}</p>
-                      </div>
-                    </Link>
-                  ))}
+                  {sidebarRelated.map((related) => {
+                    // Generate the same absolute image path, ensuring root loading
+                    const imageUrl = related.image?.startsWith('/') || related.image?.startsWith('http')
+                      ? related.image
+                      : `/${related.image}`;
+
+                    return (
+                      <Link
+                        key={related.id}
+                        to={`/game/${related.slug}`}
+                        // The container now handles the permanent background styling
+                        className="relative flex items-center gap-4 p-4 rounded-[1.5rem] border-4 border-black group overflow-hidden transition-all duration-300
+                   bg-zinc-950 text-white
+                   shadow-[6px_6px_0px_black]
+                   hover:shadow-[10px_10px_0px_black] hover:-translate-y-1"
+                      >
+                        <div className="absolute inset-0 z-0 opacity-80 group-hover:scale-105 group-hover:opacity-90 transition-all duration-500">
+                          <img
+                            src={imageUrl}
+                            alt={`${related.title} preview`}
+                            className="w-full h-full object-cover object-center"
+                          />
+                        </div>
+                        <div className={cn(
+                          "relative z-10 w-16 h-16 rounded-xl border-2 border-black flex items-center justify-center text-3xl shrink-0 transition-transform duration-300 ease-out",
+                          "shadow-[3px_3px_0px_black] group-hover:rotate-[-5deg] group-hover:scale-105",
+                          related.color || "bg-zinc-800"
+                        )}>
+                          {related.thumbnail || <Target className="w-8 h-8 text-white/50" />}
+                        </div>
+
+                        {/* Text Content */}
+                        <div className="relative z-10 flex-1 min-w-0">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-[7px] font-black bg-white text-black px-1.5 py-0.5 rounded uppercase tracking-tighter shadow-[1px_1px_0px_rgba(0,0,0,0.5)]">
+                              {related.category}
+                            </span>
+                          </div>
+                          <h4 className="text-base font-black uppercase italic truncate text-white transition-colors duration-300 leading-tight drop-shadow-[2px_2px_0px_rgba(0,0,0,0.8)]">
+                            {related.title}
+                          </h4>
+                          {/* Animated line: short initially, expands and changes color on hover */}
+                          <div className="h-1 w-5 bg-orange-500 group-hover:w-16 group-hover:bg-yellow-400 transition-all duration-300 mt-1" />
+                        </div>
+
+                        {/*
+           Right Action Arrow
+           - Fades in slightly on hover.
+        */}
+                        <div className="relative z-10 opacity-30 group-hover:opacity-100 transition-opacity duration-300">
+                          <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center border-2 border-black shadow-[2px_2px_0px_black] group-hover:bg-orange-500 group-hover:text-white transition-colors">
+                            <ArrowUpRight className="w-4 h-4 stroke-[3]" />
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
 
@@ -297,14 +336,14 @@ const GamePage = memo(() => {
           <div className="bento-grid">
             {moreSimilarGames.map((similar, index) => (
               <React.Fragment key={similar.id}>
-                <GameCard 
+                <GameCard
                   game={{
                     ...similar,
-                    size: index % 5 === 0 ? 'large' : index % 3 === 0 ? 'tall' : 'medium'
-                  }} 
+                    size: index % 4 === 0 ? 'large' : index % 2 === 0 ? 'tall' : 'medium'
+                  }}
                 />
-                {index === 5 && (
-                  <div className="col-span-12 md:col-span-4 row-span-2">
+                {index % 3 == 0 && (
+                  <div className="col-span-14 md:col-span-4 row-span-2">
                     <AdSpace className="w-full h-full" label="Related Grid Ad" />
                   </div>
                 )}

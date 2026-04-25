@@ -30,7 +30,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Arcade', 'Runner', 'Pixel'],
-    image:'images/images1/cursor-drift.webp'
+    image:'/images/images1/cursor-drift.webp'
   });
 
   games.push({
@@ -44,7 +44,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'tall',
     tags: ['Puzzle', 'Memory', 'Casual'],
-    image:'images/images1/bubble-sling.webp'
+    image:'/images/images1/bubble-sling.webp'
   });
 
   games.push({
@@ -58,7 +58,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Puzzle', 'Numbers', 'Classic', 'Physics'],
-    image:'images/images1/flappy-bubble.webp'
+    image:'/images/images1/flappy-bubble.webp'
   });
 
   games.push({
@@ -72,7 +72,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FCE4EC]',
     size: 'medium',
     tags: ['Arcade', 'Hard', 'Classic', 'Physics'],
-    image:'images/images1/ball-collision.webp'
+    image:'/images/images1/ball-collision.webp'
   });
 
   games.push({
@@ -86,7 +86,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro'],
-    image:'images/images1/maze-runner.webp'
+    image:'/images/images1/maze-runner.webp'
   });
 
   games.push({
@@ -100,7 +100,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Physics', 'Shapes', 'Daily'],
-    image:'images/images1/balance-bloom.webp'
+    image:'/images/images1/balance-bloom.webp'
   });
 
   games.push({
@@ -114,7 +114,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['Physics', 'Classic', 'Retro'],
-    image:'images/images1/bounce-lab.webp'
+    image:'/images/images1/bounce-lab.webp'
   });
 
   games.push({
@@ -128,7 +128,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'small',
     tags: ['Puzzle', 'Classic', 'Strategy'],
-    image:'images/images1/block-surfer.webp'
+    image:'/images/images1/block-surfer.webp'
   });
 
   games.push({
@@ -142,7 +142,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro'],
-    image:'images/images1/typing-shooter.webp'
+    image:'/images/images1/typing-shooter.webp'
   });
 
   games.push({
@@ -156,7 +156,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'large',
     tags: ['Puzzle', 'Classic', 'Retro', 'Physics'],
-    image:'images/images1/ball-jump.webp'
+    image:'/images/images1/ball-jump.webp'
   });
 
   games.push({
@@ -170,7 +170,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
-    image:'images/images1/stickman-archer.webp'
+    image:'/images/images1/stickman-archer.webp'
   });
 
   games.push({
@@ -184,7 +184,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E8F5E9]',
     size: 'medium',
     tags: ['Arcade', 'Classic', 'Retro', 'Stickman'],
-    image:'images/images1/dead-zone.webp'
+    image:'/images/images1/dead-zone.webp'
   });
 
   games.push({
@@ -198,7 +198,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#EFEBE9]',
     size: 'small',
     tags: ['Action', 'Adventure', 'Arcade'],
-    image:'images/images1/shinobi-path.webp'
+    image:'/images/images1/shinobi-path.webp'
   });
   
   games.push({
@@ -212,7 +212,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'tall',
     tags: ['Physics', 'Action'],
-    image:'images/images1/zenith-boomerang.webp'
+    image:'/images/images1/zenith-boomerang.webp'
   });
   
   games.push({
@@ -226,7 +226,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'large',
     tags: ['Adventure', 'Puzzle'],
-    image:'images/images1/lemmings-march.webp'
+    image:'/images/images1/lemmings-march.webp'
   });
   
   games.push({
@@ -240,7 +240,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF3E0]',
     size: 'medium',
     tags: ['Arcade', 'Physics'],
-    image:'images/images1/shoot-line.webp'
+    image:'/images/images1/shoot-line.webp'
   });
 
   games.push({
@@ -254,7 +254,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Map', 'Education'],
-    image:'images/images1/geo-atlas.webp'
+    image:'/images/images1/geo-atlas.webp'
   });
   
   games.push({
@@ -268,7 +268,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle'],
-    image:'images/images1/bit-bound.webp'
+    image:'/images/images1/bit-bound.webp'
   });
 
   games.push({
@@ -282,7 +282,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
-    image:'images/images1/vier-wizard.webp'
+    image:'/images/images1/vier-wizard.webp'
   });
 
   games.push({
@@ -296,7 +296,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Physics'],
-    image:'images/images1/bubble-shooter.webp'
+    image:'/images/images1/bubble-shooter.webp'
   });
 
   games.push({
@@ -310,7 +310,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
-    image:'images/images1/word-ladder.webp'
+    image:'/images/images1/word-ladder.webp'
   });
 
   games.push({
@@ -324,7 +324,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle','Word'],
-    image:'images/images1/lexi-quest.webp'
+    image:'/images/images1/lexi-quest.webp'
   });
 
   games.push({
@@ -338,7 +338,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FCE4EC]',
     size: 'small',
     tags: ['Physics', 'Arcade', 'Stickman'],
-    image:'images/images1/oh-flip.webp'
+    image:'/images/images1/oh-flip.webp'
   });
 
   games.push({
@@ -352,7 +352,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Memory', 'Puzzle'],
-    image:'images/images1/geo-recall.webp'
+    image:'/images/images1/geo-recall.webp'
   });
 
   games.push({
@@ -366,7 +366,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Borders', 'Quiz'],
-    image:'images/images1/border-quest.webp'
+    image:'/images/images1/border-quest.webp'
   });
 
   games.push({
@@ -380,7 +380,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Matching', 'Arcade'],
-    image:'images/images1/map-match.webp'
+    image:'/images/images1/map-match.webp'
   });
 
   games.push({
@@ -394,7 +394,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Discovery', 'Adventure'],
-    image:'images/images1/geo-explorer.webp'
+    image:'/images/images1/geo-explorer.webp'
   });
 
   games.push({
@@ -408,7 +408,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Geography', 'Logic', 'Pathfinding'],
-    image:'images/images1/geo-path.webp'
+    image:'/images/images1/geo-path.webp'
   });
 
   games.push({
@@ -422,7 +422,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Grid', 'Logic'],
-    image:'images/images1/opti-grid.webp'
+    image:'/images/images1/opti-grid.webp'
   });
 
   games.push({
@@ -436,7 +436,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Puzzle', 'Strategy', 'Connection'],
-    image:'images/images1/nexus.webp'
+    image:'/images/images1/nexus.webp'
   });
 
   games.push({
@@ -450,7 +450,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#ECEFF1]',
     size: 'medium',
     tags: ['WebCam', 'Action', 'Hero'],
-    image:'images/images1/iron-repulsion.webp'
+    image:'/images/images1/iron-repulsion.webp'
   });
   
   games.push({
@@ -464,7 +464,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF9C4]',
     size: 'medium',
     tags: ['WebCam', 'Action', 'Slasher'],
-    image:'images/images1/emoji-slasher.webp'
+    image:'/images/images1/emoji-slasher.webp'
   });
 
   games.push({
@@ -478,7 +478,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F1F8E9]',
     size: 'medium',
     tags: ['WebCam', 'Arcade', 'Slasher'],
-    image:'images/images1/fruit-slasher.webp'
+    image:'/images/images1/fruit-slasher.webp'
   });
 
   games.push({
@@ -492,7 +492,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E3F2FD]',
     size: 'medium',
     tags: ['WebCam', 'Reflex', 'Sports'],
-    image:'images/images1/catch-ball.webp'
+    image:'/images/images1/catch-ball.webp'
   });
 
   games.push({
@@ -506,7 +506,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFEBEE]',
     size: 'medium',
     tags: ['WebCam', 'Skill', 'Darts'],
-    image:'images/images1/aero-dart.webp'
+    image:'/images/images1/aero-dart.webp'
   });
 
   games.push({
@@ -520,7 +520,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#E0F2F1]',
     size: 'medium',
     tags: ['Arcade', 'Puzzle', 'Color'],
-    image:'images/images1/chroma-fit.webp'
+    image:'/images/images1/chroma-fit.webp'
   });  
 
   games.push({
@@ -534,7 +534,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#F3E5F5]',
     size: 'medium',
     tags: ['WebCam', 'Shooter', 'Arcade'],
-    image:'images/images1/ball-shooter.webp'
+    image:'/images/images1/ball-shooter.webp'
   });
 
   games.push({
@@ -548,7 +548,7 @@ const generatePhysicsGames = (count: number): Game[] => {
     color: 'bg-[#FFF3E0]',
     size: 'medium',
     tags: ['Arcade', 'Casual', 'Animals'],
-    image:'images/images1/run-bunny.webp'
+    image:'/images/images1/run-bunny.webp'
   });
   
   return games;

@@ -11,6 +11,7 @@ interface GameCardProps {
 }
 
 const GameCard = React.memo(({ game }: GameCardProps) => {
+  console.log(game)
   const sizeClasses = {
     large: 'col-span-12 md:col-span-6 row-span-6',
     medium: 'col-span-12 md:col-span-6 row-span-4',
@@ -23,9 +24,7 @@ const GameCard = React.memo(({ game }: GameCardProps) => {
    * This takes the game.url and returns a live screenshot.
    * We add filters like 'quality: 80' and 'screenshot: true'
    */
-  const screenshotUrl = game.image || `https://i.microlink.io/${encodeURIComponent(
-    `https://api.microlink.io/?url=${game.url}&screenshot=true&meta=false&embed=screenshot.url`
-  )}`;
+  const screenshotUrl = game.image
 
   return (
     <Link to={`/game/${game.slug}`} className={cn(sizeClasses[game.size])}>
@@ -45,6 +44,7 @@ const GameCard = React.memo(({ game }: GameCardProps) => {
             src={screenshotUrl} 
             alt={`${game.title} preview`} 
             loading="lazy"
+            decoding='async'
             className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110 group-hover:opacity-70 filter contrast-[1.1] brightness-[0.9]"
           />
           
