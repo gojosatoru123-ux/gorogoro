@@ -83,7 +83,7 @@ const GamePage = memo(() => {
         <SEO
           title={`${game.title} | GORO GORO`}
           description={game.description}
-          canonical={`https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/game/${game.slug}`}
+          canonical={`https://gorogoro.games/game/${game.slug}`}
           ogImage={game.image || `https://picsum.photos/seed/${game.slug}/1200/630`}
           ogType="game"
           gameData={{

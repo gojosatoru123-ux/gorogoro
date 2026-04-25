@@ -18,7 +18,7 @@ interface SEOProps {
 const SEO = memo(({ 
   title = "GORO GORO | The Ultimate Retro Gaming Archive", 
   description = "Experience the best pixel-based simulations and retro games in your browser. Physics-driven fun, zero lag, and a massive archive of classics.",
-  canonical = "https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app",
+  canonical = "https://gorogoro.games",
   ogImage = "https://picsum.photos/seed/goro-goro/1200/630",
   ogType = "website",
   gameData
