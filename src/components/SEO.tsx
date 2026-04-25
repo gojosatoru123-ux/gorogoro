@@ -6,7 +6,7 @@ interface SEOProps {
   description?: string;
   canonical?: string;
   ogImage?: string;
-  ogType?: 'website' | 'article' | 'game';
+  ogType?: 'website' | 'article' | 'video.game'; // Changed 'game' to 'video.game'
   gameData?: {
     name: string;
     description: string;
@@ -19,14 +19,13 @@ const SEO = memo(({
   title = "GORO GORO | The Ultimate Retro Gaming Archive", 
   description = "Experience the best pixel-based simulations and retro games in your browser. Physics-driven fun, zero lag, and a massive archive of classics.",
   canonical = "https://gorogoro.games",
-  ogImage = "https://picsum.photos/seed/goro-goro/1200/630",
+  ogImage = "https://gorogoro.games/og-default.webp",
   ogType = "website",
   gameData
 }: SEOProps) => {
   const siteName = "GORO GORO";
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
 
-  // Structured Data (JSON-LD)
   const structuredData = gameData ? {
     "@context": "https://schema.org",
     "@type": "VideoGame",
@@ -39,7 +38,8 @@ const SEO = memo(({
     "offers": {
       "@type": "Offer",
       "price": "0",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
     }
   } : {
     "@context": "https://schema.org",
@@ -49,7 +49,7 @@ const SEO = memo(({
     "description": description,
     "potentialAction": {
       "@type": "SearchAction",
-      "target": `${canonical}/games?q={search_term_string}`,
+      "target": `${canonical}/search?q={search_term_string}`,
       "query-input": "required name=search_term_string"
     }
   };
@@ -57,6 +57,7 @@ const SEO = memo(({
   return (
     <Helmet>
       {/* Standard Meta Tags */}
+      <html lang="en" />
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
@@ -81,7 +82,7 @@ const SEO = memo(({
       </script>
 
       {/* Additional SEO Tags */}
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content="index, follow, max-image-preview:large" />
       <meta name="theme-color" content="#FF6321" />
     </Helmet>
   );
