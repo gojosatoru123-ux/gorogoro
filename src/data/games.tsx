@@ -539,8 +539,8 @@ const generatePhysicsGames = (count: number): Game[] => {
 
   games.push({
     id: 'game-38',
-    slug: 'rub-bunny',
-    title: 'Rub Bunny',
+    slug: 'run-bunny',
+    title: 'Run Bunny',
     description: 'A quirky arcade challenge where speed and precision are key to interacting with your bunny pal.',
     thumbnail: '🐰',
     category: 'Arcade',
