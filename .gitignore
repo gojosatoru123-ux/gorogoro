@@ -11,3 +11,8 @@ coverage/
 .env
 public/images
 public/temp
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
