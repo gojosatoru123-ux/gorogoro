@@ -11,7 +11,7 @@ const AboutUsPage = memo(() => {
       <SEO 
         title="About Us | Goro Goro" 
         description="Learn more about the team behind GORO GORO and our mission to build the most immersive pixel-based simulations on the web."
-        canonical="https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/about"
+        canonical="https://gorogoro.games/about"
       />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b-4 border-black">

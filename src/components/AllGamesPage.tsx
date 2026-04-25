@@ -55,8 +55,8 @@ const AllGamesPage = memo(() => {
     <div className="min-h-screen bg-[#FDFDFD]">
       <SEO 
         title="All Games | GORO GORO" 
-        description="Browse our complete archive of pixel-perfect games and physics simulations. From Wordle to Tetris, find your next favorite game."
-        canonical="https://ais-pre-zg3qzj4qo7vn7aj2mmmoo3-293044114194.asia-east1.run.app/games"
+        description="Browse our complete archive of pixel-perfect games and physics simulations. From Wordle to Tetris to Shinobi to AR, find your next favorite game."
+        canonical="https://gorogoro.games/games"
       />
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b-4 border-black">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 lg:px-12 h-16 flex items-center justify-between">
