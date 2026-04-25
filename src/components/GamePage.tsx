@@ -174,7 +174,7 @@ const GamePage = memo(() => {
                       src={game.url}
                       className={cn("w-full h-full border-0 transition-opacity duration-500", isLoading ? "opacity-0" : "opacity-100")}
                       title={game.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-sharecamera; geolocation"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; camera; geolocation"
                       allowFullScreen
                       referrerPolicy="no-referrer"
                       sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation"
