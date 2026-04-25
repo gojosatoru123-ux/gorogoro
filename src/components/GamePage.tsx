@@ -278,6 +278,8 @@ const GamePage = memo(() => {
                           <img
                             src={imageUrl}
                             alt={`${related.title} preview`}
+                            loading="lazy"
+                            decoding='async'
                             className="w-full h-full object-cover object-center"
                           />
                         </div>

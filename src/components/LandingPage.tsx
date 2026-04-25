@@ -98,6 +98,8 @@ const LandingPage = memo(() => {
                 <img
                   src={heroGame.image}
                   alt={heroGame.title}
+                  loading="lazy"
+                  decoding='async'
                   className="w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-100"
                 />
               </div>
@@ -186,6 +188,8 @@ const LandingPage = memo(() => {
                       <img
                         src={game.image}
                         alt={`${game.title} thumbnail`}
+                        loading="lazy"
+                        decoding='async'
                         className="w-full h-full object-cover object-center transition-all duration-500"
                       />
                     </div>
@@ -268,6 +272,8 @@ const LandingPage = memo(() => {
                     <img
                       src={imageUrl}
                       alt={`${game.title} background`}
+                      loading="lazy"
+                      decoding='async'
                       className="w-full h-full object-cover object-center"
                     />
                     <div className={cn("absolute inset-0 opacity-10 group-hover:opacity-30 transition-opacity duration-300", game.color)} />
