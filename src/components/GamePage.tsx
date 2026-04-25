@@ -84,13 +84,13 @@ const GamePage = memo(() => {
           title={`${game.title} | GORO GORO`}
           description={game.description}
           canonical={`https://gorogoro.games/game/${game.slug}`}
-          ogImage={game.image || `https://picsum.photos/seed/${game.slug}/1200/630`}
+          ogImage={game.image || `https://gorogoro.games/og-default.webp`}
           ogType="game"
           gameData={{
             name: game.title,
             description: game.description,
             genre: game.category,
-            image: game.image || `https://picsum.photos/seed/${game.slug}/1200/630`
+            image: game.image || `https://gorogoro.games/og-default.webp`
           }}
         />
       )}
